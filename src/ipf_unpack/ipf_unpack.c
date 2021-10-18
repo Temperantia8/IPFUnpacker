@@ -25,7 +25,7 @@
 #define PATH_MAX 4096
 #endif
 
-char *default_decompressed_extensions[] = {};
+char *default_decompressed_extensions[] = {"xml", "ies", "jpg", "png", "tga", "lua"};
 
 
 void keys_generate (uint32_t *keys) 
